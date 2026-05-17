@@ -58,7 +58,7 @@ const data = [
     },
     {
         'repoName': 'string4',
-        'repoDescription': '正则表达式 国际象棋正则表达式 国际象棋正则表达式 国际象棋正则表达式 国际象棋正则表达式 国际象棋正则表达式 国际象棋正则表达式 国际象棋正则表达式 国际象棋正则表达式 国际象棋正则表达式 国际象棋正则表达式 国际象棋正则表达式 国际象棋正则表达式 国际象棋正则表达式 国际象棋',
+        'repoDescription': 'flex aspect-square size-5 items-center justify-cflex aspect-square size-5 items-center justify-center rounded-md bg-sidebar-primary text-sidebar-p 国际象棋正则表达式 国际象棋正则表达式 国际象棋',
         'repoUrl': "https://example.com",
         'author': "string",
         'avatarUrl': "string",

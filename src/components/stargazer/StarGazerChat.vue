@@ -3,6 +3,7 @@ import { ArrowUpIcon, AtSign, InfoIcon, PlusIcon, Settings2 } from 'lucide-vue-n
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/components/ui/dropdown-menu'
 import { InputGroup, InputGroupAddon, InputGroupButton, InputGroupInput, InputGroupText, InputGroupTextarea } from '@/components/ui/input-group'
 import { Separator } from '@/components/ui/separator'
+import StarGazerSettings from '@/components/stargazer/StarGazerSettings.vue';
 </script>
 
 <template>
@@ -22,7 +23,8 @@ import { Separator } from '@/components/ui/separator'
           class="rounded-full"
           size="icon-xs"
         >
-          <Settings2 class="size-4" />
+        <StarGazerSettings/>
+          
         </InputGroupButton>
         </InputGroupAddon>
       <InputGroupTextarea placeholder="Ask, Search or Chat..." class="max-h-16 scrollbar-hide" />

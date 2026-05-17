@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import ChatComponents from '@/components/ChatComponents.vue';
+import ChatComponents from '@/components/stargazer/StarGazerChat.vue';
 import ControlPannel from '@/components/stargazer/ControlPanel.vue';
 
 const data = {

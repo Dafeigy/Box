@@ -10,6 +10,9 @@ import {
   BreadcrumbPage,
 } from "@/components/ui/breadcrumb"
 import { Separator } from "@/components/ui/separator"
+import { Button } from "@/components/ui/button";
+import ToggleLightDarkButton from "@/components/ToggleLightDarkButton.vue";
+
 import {
   SidebarInset,
   SidebarProvider,
@@ -24,6 +27,7 @@ import {
       <header class="flex h-14 shrink-0 items-center gap-2">
         <div class="flex flex-1 items-center gap-2 px-3">
           <SidebarTrigger />
+          <ToggleLightDarkButton/>
           <Separator
             orientation="vertical"
             class="mr-2 "

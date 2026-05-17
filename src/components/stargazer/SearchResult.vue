@@ -26,7 +26,7 @@ defineProps<{
         <div class="flex items-center gap-3">
           <Avatar class="h-12 w-12">
             <AvatarImage src={{ searchResult.avatarUrl }} />
-            <AvatarFallback>CN</AvatarFallback>
+            <AvatarFallback>User</AvatarFallback>
           </Avatar>
           <div class="flex flex-col gap-1">
             <span class="font-semibold text-[15px] leading-none">
